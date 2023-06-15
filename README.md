@@ -1,6 +1,6 @@
 # mbd56_pollen
 
-Contains code used for Ichino et al. 2022 (Cell Reports, link: TBD) for updating gene annotations based on pollen RNA-seq. We primarily used the Mikado pipeline (https://mikado.readthedocs.io/en/stable/), but include here an additional script that was used to refine the predictions selected by Mikado to better detect the non-coding sequences and reactivated TEs we were seeing in this tissue.
+Contains code used for Ichino et al. 2022 (Cell Reports, link: https://www.sciencedirect.com/science/article/pii/S221112472201573X) for updating gene annotations based on pollen RNA-seq. We primarily used the Mikado pipeline (https://mikado.readthedocs.io/en/stable/), but include here an additional script that was used to refine the predictions selected by Mikado to better detect the non-coding sequences and reactivated TEs we were seeing in this tissue.
 
 Contains 3 files:
 - mikado_refine.py - this script refined the output of Mikado; instructions for how to run included in file header, including a detailed overview of how to include this in a 'regular' Mikado run
